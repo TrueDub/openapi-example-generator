@@ -1,0 +1,29 @@
+{
+  "name": "openapi-example-generator",
+  "version": "0.0.1",
+  "description": "generate example responses in JSON from OpenAPI 2.0 responses ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueDub/openapi-example-generator.git"
+  },
+  "keywords": [
+    "openAPI",
+    "swagger"
+  ],
+  "author": "Jim Gallagher",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/TrueDub/openapi-example-generator/issues"
+  },
+  "homepage": "https://github.com/TrueDub/openapi-example-generator#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
