@@ -3,6 +3,7 @@ const generate = require('../src/generator');
 const basicResponses = {
     "200": {
         "schema": {
+            "type": "object",
             "properties": {
                 "field1": {
                     "type": "string",
@@ -38,35 +39,39 @@ const basicResponses = {
     },
     "400": {
         "schema": {
-            "properties": {
-                "field1": {
-                    "type": "string",
-                    "example": 9
-                },
-                "field2": {
-                    "type": "string",
-                    "example": "2x"
-                },
-                "field3": {
-                    "type": "string",
-                    "example": "field3x"
-                },
-                "field4A": {
-                    "type": "array",
-                    "items": {
-                        "type": "object",
-                        "properties": {
-                            "propA1": {
-                                "type": "string",
-                                "example": "pA1"
-                            },
-                            "propA2": {
-                                "type": "string",
-                                "example": "pA2"
-                            },
-                            "propA3": {
-                                "type": "string",
-                                "example": "pA3"
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "field1": {
+                        "type": "string",
+                        "example": 9
+                    },
+                    "field2": {
+                        "type": "string",
+                        "example": "2x"
+                    },
+                    "field3": {
+                        "type": "string",
+                        "example": "field3x"
+                    },
+                    "field4A": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "propA1": {
+                                    "type": "string",
+                                    "example": "pA1"
+                                },
+                                "propA2": {
+                                    "type": "string",
+                                    "example": "pA2"
+                                },
+                                "propA3": {
+                                    "type": "string",
+                                    "example": "pA3"
+                                }
                             }
                         }
                     }
@@ -87,7 +92,7 @@ const expected = {
             "prop3": "p3"
         }
     },
-    "400": {
+    "400": [{
         "field1": 9,
         "field2": "2x",
         "field3": "field3x",
@@ -96,7 +101,7 @@ const expected = {
             "propA2": "pA2",
             "propA3": "pA3"
         }]
-    }
+    }]
 };
 
 test('basic test is correct', () => {

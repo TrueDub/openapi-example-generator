@@ -2,7 +2,7 @@
   "name": "openapi-example-generator",
   "version": "0.0.1",
   "description": "generate example responses in JSON from OpenAPI 2.0 responses ",
-  "main": "index.js",
+  "main": "lib/generator.js",
   "directories": {
     "test": "test"
   },
@@ -40,5 +40,8 @@
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
     "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "swagger-parser": "^4.1.0"
   }
 }
