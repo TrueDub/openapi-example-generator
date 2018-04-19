@@ -7,7 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose",
+    "build": "babel src -d lib"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
   },
   "repository": {
     "type": "git",
@@ -24,6 +30,15 @@
   },
   "homepage": "https://github.com/TrueDub/openapi-example-generator#readme",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
     "jest": "^22.4.3"
   }
 }

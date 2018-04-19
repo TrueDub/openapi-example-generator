@@ -6,21 +6,44 @@ It takes the structure of the response object, and adds the example values as th
  */
 
 function generate(responses) {
-    var output = {};
-    for (var response in responses) {
+    let output = {};
+    for (let response in responses) {
         if (responses.hasOwnProperty(response)) {
             // generate
-            var responseOutput = generateResponse(responses.response);
-            output[response] = responseOutput;
+            output[response] = generateOutput(responses[response]);
         }
     }
     return output;
 }
 
-function generateResponse() {
-    var output = {};
+function generateOutput(response) {
+    let output = {};
 //loop through the properties of the item
+    for (let elementName in response.schema.properties) {
+        if (response.schema.properties.hasOwnProperty(elementName)) {
+            // generate
+            output[elementName] = processElement(response.schema.properties[elementName]);
+        }
+    }
     return output;
+}
+
+function processElement(element) {
+    if (element.type === 'object') {
+        let result = {};
+        for (let subElementName in element.properties) {
+            if (element.properties.hasOwnProperty(subElementName)) {
+                // generate
+                result[subElementName] = processElement(element.properties[subElementName]);
+            }
+        }
+        return result;
+    }
+    if (element.type === 'array') {
+        return ([processElement(element.items)]);
+    } else {
+        return element['example'];
+    }
 }
 
 module.exports = generate;
