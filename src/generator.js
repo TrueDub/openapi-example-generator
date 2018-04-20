@@ -28,6 +28,9 @@ function generateOutput(response) {
         }
     } else {
         // array schema
+        if (!response.schema.items.hasOwnProperty('type')) {
+            response.schema.items.type = 'object';
+        }
         return ([processElement(response.schema.items)]);
     }
     return output;
@@ -43,8 +46,7 @@ function processElement(element) {
             }
         }
         return result;
-    }
-    if (element.type === 'array') {
+    } else if (element.type === 'array') {
         return ([processElement(element.items)]);
     } else {
         return element['example'];

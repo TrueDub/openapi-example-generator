@@ -2,13 +2,13 @@
   "name": "openapi-example-generator",
   "version": "0.0.1",
   "description": "generate example responses in JSON from OpenAPI 2.0 responses ",
-  "main": "lib/generator.js",
+  "main": "dist/openapi-example-generator.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "jest --verbose",
-    "build": "babel src -d lib"
+    "build": "webpack",
+    "test": "jest --verbose"
   },
   "jest": {
     "transform": {
@@ -32,14 +32,18 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "clean-webpack-plugin": "^0.1.19",
     "eslint": "^4.19.1",
     "eslint-config-standard": "^11.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-promise": "^3.7.0",
     "eslint-plugin-standard": "^3.0.1",
-    "jest": "^22.4.3"
+    "jest": "^22.4.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.14"
   },
   "dependencies": {
     "swagger-parser": "^4.1.0"
