@@ -1,0 +1,479 @@
+{
+  "transactionDetail": {
+    "transactionID": "rlh-hi9puyoijk-jop8u-kd-d-1",
+    "transactionTimestamp": "2017-02-21T17:46:19.839Z",
+    "inLanguage": "en-US",
+    "productID": "PRODID",
+    "productVersion": 1
+  },
+  "inquiryDetail": {
+    "duns": 804735132,
+    "productID": "PRODID",
+    "productVersion": "v1",
+    "tradeUp": "hq"
+  },
+  "organization": {
+    "duns": 804735132,
+    "dunsControlStatus": {
+      "operatingStatus": {
+        "description": "Active",
+        "dnbCode": 9074
+      },
+      "isMarketable": "true",
+      "isMailUndeliverable": "false",
+      "isTelephoneDisconnected": "false",
+      "isDelisted": "false",
+      "subjectHandlingDetails": [
+        {
+          "description": "Do not call",
+          "dnbCode": 7974
+        }
+      ],
+      "fullReportDate": "2017-01-30"
+    },
+    "primaryName": "GORMAN MANUFACTURING COMPANY, INC.",
+    "tradeStyleNames": [
+      {
+        "name": "Alternate Company Name",
+        "priority": 1
+      }
+    ],
+    "websiteAddress": [
+      {
+        "url": "http://www.gorman.com",
+        "domainName": "gorman.com"
+      }
+    ],
+    "telephone": [
+      {
+        "telephoneNumber": 6505550000,
+        "isdCode": 1,
+        "isUnreachable": "false"
+      }
+    ],
+    "fax": [
+      {
+        "faxNumber": 6505550001,
+        "isdCode": 1
+      }
+    ],
+    "primaryAddress": {
+      "language": {
+        "description": "English",
+        "dnbCode": 39
+      },
+      "addressCountry": {
+        "name": "United States",
+        "isoAlpha2Code": "US",
+        "fipsCode": "US"
+      },
+      "continentalRegion": {
+        "name": "North America"
+      },
+      "addressLocality": {
+        "name": "SAN FRANCISCO"
+      },
+      "minorTownName": "Booker",
+      "addressRegion": {
+        "name": "California",
+        "abbreviatedName": "CA",
+        "fipsCode": "06"
+      },
+      "addressCounty": {
+        "name": "SAN MATEO",
+        "fipsCode": 81
+      },
+      "postalCode": 941109999,
+      "postalCodePosition": {
+        "description": "Post code presented before Town/City name",
+        "dnbCode": 1009
+      },
+      "streetNumber": 492,
+      "streetName": "KOLLER ST",
+      "streetAddress": {
+        "line1": "492 KOLLER ST",
+        "line2": "Suite 100"
+      },
+      "postOfficeBox": {
+        "postOfficeBoxNumber": 5309,
+        "typeDescription": "Supplied by public Post Office authority",
+        "typeDnBCode": 120
+      },
+      "latitude": 37.777709,
+      "longitude": -122.404624,
+      "geographicalPrecision": {
+        "description": "Street Segment Centroid",
+        "dnbCode": 30256
+      },
+      "isRegisteredAddress": "true",
+      "isResidentialAddress": "false",
+      "statisticalArea": {
+        "cbsaName": "San Francisco-Oakland-Hayward CA",
+        "cbsaCode": 41860,
+        "economicAreaOfInfluenceCode": 146,
+        "populationRank": {
+          "rankNumber": 9,
+          "rankDnBCode": 10961,
+          "rankDescription": "500,000 +"
+        }
+      },
+      "locationOwnership": {
+        "description": "Rents",
+        "dnbCode": 1129
+      },
+      "premisesArea": {
+        "measurement": 10034,
+        "unitDescription": "square foot",
+        "unitDnBCode": 3848,
+        "reliabilityDescription": "Actual",
+        "reliabilityDnBCode": 9092
+      },
+      "isManufacturingLocation": "true"
+    },
+    "registeredAddress": {
+      "language": {
+        "description": "English",
+        "dnbCode": 39
+      },
+      "addressCountry": {
+        "name": "United States",
+        "isoAlpha2Code": "US"
+      },
+      "addressLocality": {
+        "name": "SAN FRANCISCO"
+      },
+      "minorTownName": "Booker",
+      "addressRegion": {
+        "name": "California",
+        "abbreviatedName": "CA"
+      },
+      "addressCounty": {
+        "name": "SAN MATEO"
+      },
+      "postalCode": 941109999,
+      "postalCodePosition": {
+        "description": "Post code presented before Town/City name",
+        "dnbCode": 1009
+      },
+      "streetNumber": 492,
+      "streetName": "KOLLER ST",
+      "streetAddress": {
+        "line1": "492 KOLLER ST",
+        "line2": "Suite 100",
+        "line3": "Address line 3",
+        "line4": "Address line 4"
+      },
+      "postOfficeBox": {
+        "postOfficeBoxNumber": 5309,
+        "typeDescription": "Supplied by public Post Office authority",
+        "typeDnBCode": 120
+      }
+    },
+    "mailingAddress": {
+      "language": {
+        "description": "English",
+        "dnbCode": 39
+      },
+      "addressCountry": {
+        "name": "United States",
+        "isoAlpha2Code": "US"
+      },
+      "continentalRegion": {
+        "name": "North America"
+      },
+      "addressLocality": {
+        "name": "SAN FRANCISCO"
+      },
+      "minorTownName": "Booker",
+      "addressRegion": {
+        "name": "California",
+        "abbreviatedName": "CA"
+      },
+      "addressCounty": {
+        "name": "SAN MATEO"
+      },
+      "postalCode": 941109999,
+      "postalCodePosition": {
+        "description": "Post code presented before Town/City name",
+        "dnbCode": 1009
+      },
+      "postalRoute": "route 3B",
+      "streetNumber": 492,
+      "streetName": "KOLLER ST",
+      "streetAddress": {
+        "line1": "492 KOLLER ST",
+        "line2": "Suite 100"
+      },
+      "postOfficeBox": {
+        "postOfficeBoxNumber": 5309,
+        "typeDescription": "Supplied by public Post Office authority",
+        "typeDnBCode": 120
+      }
+    },
+    "stockExchanges": [
+      {
+        "tickerName": "NYSE:DNB",
+        "exchangeName": {
+          "description": "NYSE"
+        },
+        "exchangeCountry": {
+          "isoAlpha2Code": "US"
+        },
+        "isPrimary": "true"
+      }
+    ],
+    "thirdPartyAssessment": [
+      {
+        "description": "Fortune 500 Revenue Rank",
+        "dnbCode": 23290,
+        "assessmentDate": 2017,
+        "value": 31
+      }
+    ],
+    "registrationNumbers": [
+      {
+        "registrationNumber": "12-3456789",
+        "typeDescription": "Federal Taxpayer Identification Number (US)",
+        "typeDnBCode": 6863
+      }
+    ],
+    "industryCodes": [
+      {
+        "code": 323111,
+        "description": "Commercial Printing ",
+        "typeDescription": "North American Industry Classification System 2012",
+        "typeDnBCode": 24664,
+        "priority": 1
+      }
+    ],
+    "businessEntityType": {
+      "description": "Corporation",
+      "dnbCode": 451
+    },
+    "controlOwnershipDate": 1985,
+    "startDate": 1985,
+    "controlOwnershipType": {
+      "description": "Privately owned",
+      "dnbCode": 9058
+    },
+    "isAgent": "false",
+    "isImporter": "false",
+    "isExporter": "false",
+    "numberOfEmployees": [
+      {
+        "value": 1234,
+        "informationScopeDescription": "Consolidated",
+        "informationScopeDnBCode": 9067,
+        "reliabilityDescription": "Actual",
+        "reliabilityDnBCode": 9092,
+        "employeeCategories": [
+          {
+            "employmentBasisDescription": "Principals",
+            "employmentBasisDnBCode": 9064
+          }
+        ],
+        "trend": [
+          {
+            "timePeriod": {
+              "description": "1 - 5 years",
+              "dnbCode": 13721
+            },
+            "growthRate": -7
+          }
+        ]
+      }
+    ],
+    "financials": [
+      {
+        "financialStatementToDate": "2016-12-31",
+        "financialStatementDuration": "Annual",
+        "informationScopeDescription": "Actual",
+        "informationScopeDnBCode": 9092,
+        "reliabilityDescription": "Actual",
+        "reliabilityDnBCode": 9092,
+        "unitCode": "Single Units",
+        "accountantName": "Johnson, Jordan & Jones CPAs",
+        "yearlyRevenue": [
+          {
+            "value": 19945238,
+            "currency": "USD",
+            "trend": [
+              {
+                "timePeriod": {
+                  "description": "1-5 years",
+                  "dnbCode": 13721
+                },
+                "growthRate": 2
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "mostSeniorPrincipals": [
+      {
+        "givenName": "Leslie",
+        "familyName": "Smith",
+        "fullName": "Leslie Ann Smith",
+        "namePrefix": "Dr.",
+        "nameSuffix": "PhD",
+        "gender": "Female",
+        "jobTitles": [
+          {
+            "title": "President"
+          }
+        ],
+        "managementResponsibilities": [
+          {
+            "description": "President",
+            "mrcCode": "A1A6"
+          }
+        ]
+      }
+    ],
+    "currentPrincipals": [
+      {
+        "givenName": "Leslie",
+        "familyName": "Smith",
+        "fullName": "Leslie Ann Smith",
+        "namePrefix": "Dr.",
+        "nameSuffix": "PhD",
+        "gender": "Female",
+        "jobTitles": [
+          {
+            "title": "President"
+          }
+        ],
+        "managementResponsibilities": [
+          {
+            "description": "President",
+            "mrcCode": "A1A6"
+          }
+        ]
+      }
+    ],
+    "socioEconomicInformation": {
+      "isMinorityOwned": "false",
+      "isSmallBusiness": "false"
+    },
+    "isStandalone": "false",
+    "corporateLinkage": {
+      "familytreeRolesPlayed": [
+        {
+          "description": "Global Ultimate",
+          "dnbCode": 12775
+        }
+      ],
+      "hierarchyLevel": 1,
+      "globalUltimateFamilyTreeMembersCount": "",
+      "globalUltimate": {
+        "duns": 804735132,
+        "primaryName": "GORMAN MANUFACTURING COMPANY, INC.",
+        "primaryAddress": {
+          "addressCountry": {
+            "name": "United States",
+            "isoAlpha2Code": "US",
+            "fipsCode": "US"
+          },
+          "continentalRegion": {
+            "name": "North America"
+          },
+          "addressLocality": {
+            "name": "SAN FRANCISCO"
+          },
+          "addressRegion": {
+            "name": "California",
+            "abbreviatedName": "CA"
+          },
+          "addressCounty": {},
+          "postalCode": 941109999,
+          "streetAddress": {
+            "line1": "492 KOLLER ST",
+            "line2": "Suite 100"
+          }
+        }
+      },
+      "domesticUltimate": {
+        "duns": 804735132,
+        "primaryName": "GORMAN MANUFACTURING COMPANY, INC.",
+        "primaryAddress": {
+          "addressCountry": {
+            "name": "United States",
+            "isoAlpha2Code": "US",
+            "fipsCode": "US"
+          },
+          "continentalRegion": {
+            "name": "North America"
+          },
+          "addressLocality": {
+            "name": "SAN FRANCISCO"
+          },
+          "addressRegion": {
+            "name": "California",
+            "abbreviatedName": "CA"
+          },
+          "addressCounty": {},
+          "postalCode": 941109999,
+          "streetAddress": {
+            "line1": "492 KOLLER ST",
+            "line2": "Suite 100"
+          }
+        }
+      },
+      "parent": {
+        "duns": 804735132,
+        "primaryName": "GORMAN MANUFACTURING COMPANY, INC.",
+        "primaryAddress": {
+          "addressCountry": {
+            "name": "United States",
+            "isoAlpha2Code": "US",
+            "fipsCode": "US"
+          },
+          "continentalRegion": {
+            "name": "North America"
+          },
+          "addressLocality": {
+            "name": "SAN FRANCISCO"
+          },
+          "addressRegion": {
+            "name": "California",
+            "abbreviatedName": "CA"
+          },
+          "addressCounty": {},
+          "postalCode": 941109999,
+          "streetAddress": {
+            "line1": "492 KOLLER ST",
+            "line2": "Suite 100"
+          }
+        }
+      },
+      "headQuarter": {
+        "duns": 804735132,
+        "primaryName": "GORMAN MANUFACTURING COMPANY, INC.",
+        "primaryAddress": {
+          "addressCountry": {
+            "name": "United States",
+            "isoAlpha2Code": "US",
+            "fipsCode": "US"
+          },
+          "continentalRegion": {
+            "name": "North America"
+          },
+          "addressLocality": {
+            "name": "SAN FRANCISCO"
+          },
+          "addressRegion": {
+            "name": "California",
+            "abbreviatedName": "CA"
+          },
+          "addressCounty": {},
+          "postalCode": 941109999,
+          "streetAddress": {
+            "line1": "492 KOLLER ST",
+            "line2": "Suite 100"
+          }
+        }
+      }
+    }
+  }
+}

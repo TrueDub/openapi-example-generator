@@ -8,6 +8,7 @@ It takes the structure of the response object, and adds the example values as th
 function generate(responses) {
     let output = {};
     for (let response in responses) {
+        console.log('response: ' + response);
         if (responses.hasOwnProperty(response)) {
             // generate
             output[response] = generateOutput(responses[response]);
@@ -19,14 +20,14 @@ function generate(responses) {
 function generateOutput(response) {
     let output = {};
 //loop through the properties of the item
-    if (response.schema.type === 'object') {
+    if (response.hasOwnProperty('schema') && response.schema.type === 'object') {
         for (let elementName in response.schema.properties) {
             if (response.schema.properties.hasOwnProperty(elementName)) {
                 // generate
                 output[elementName] = processElement(response.schema.properties[elementName]);
             }
         }
-    } else {
+    } else if (response.hasOwnProperty('schema') && response.schema.type === 'array') {
         // array schema
         if (!response.schema.items.hasOwnProperty('type')) {
             response.schema.items.type = 'object';

@@ -11,6 +11,7 @@
     "test": "jest --verbose"
   },
   "jest": {
+    "verbose": false,
     "transform": {
       "^.+\\.jsx?$": "babel-jest"
     }
