@@ -44,7 +44,7 @@
     "eslint-plugin-standard": "^3.0.1",
     "jest": "^22.4.3",
     "webpack": "^4.6.0",
-    "webpack-cli": "^2.0.14"
+    "webpack-cli": "^5.0.1"
   },
   "dependencies": {
     "swagger-parser": "^4.1.0"
